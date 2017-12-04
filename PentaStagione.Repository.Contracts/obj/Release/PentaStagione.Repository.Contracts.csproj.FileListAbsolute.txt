@@ -1,0 +1,7 @@
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Repository.Contracts.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Repository.Contracts.pdb
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Common.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Common.pdb
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Repository.Contracts\obj\Release\PentaStagione.Repository.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Repository.Contracts\obj\Release\PentaStagione.Repository.Contracts.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Repository.Contracts\obj\Release\PentaStagione.Repository.Contracts.pdb

@@ -1,0 +1,5 @@
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\bin\Debug\PentaStagione.Infrastracture.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\bin\Debug\PentaStagione.Infrastracture.pdb
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\obj\Debug\PentaStagione.Infrastracture.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\obj\Debug\PentaStagione.Infrastracture.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\obj\Debug\PentaStagione.Infrastracture.pdb

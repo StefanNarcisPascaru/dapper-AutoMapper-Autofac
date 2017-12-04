@@ -1,0 +1,4 @@
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\bin\Release\PentaStagione.Infrastracture.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\bin\Release\PentaStagione.Infrastracture.pdb
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\obj\Release\PentaStagione.Infrastracture.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Infrastracture\obj\Release\PentaStagione.Infrastracture.pdb

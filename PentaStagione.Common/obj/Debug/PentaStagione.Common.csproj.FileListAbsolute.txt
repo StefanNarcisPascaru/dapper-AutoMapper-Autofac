@@ -1,0 +1,5 @@
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Common\bin\Debug\PentaStagione.Common.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Common\bin\Debug\PentaStagione.Common.pdb
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Common\obj\Debug\PentaStagione.Common.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Common\obj\Debug\PentaStagione.Common.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Common\obj\Debug\PentaStagione.Common.pdb

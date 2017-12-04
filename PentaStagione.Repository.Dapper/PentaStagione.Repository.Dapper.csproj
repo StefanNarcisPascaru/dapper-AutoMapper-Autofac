@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A74EB9A-B924-45CB-80E6-4BFD0648FF72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PentaStagione.Repository.Dapper</RootNamespace>
+    <AssemblyName>PentaStagione.Repository.Dapper</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.5.0\lib\net45\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configurations\AutofacDapper.cs" />
+    <Compile Include="Configurations\Mapings\PizzaAutoMapper.cs" />
+    <Compile Include="Configurations\Mapings\PizzaIngredientAutoMapper.cs" />
+    <Compile Include="PizzaDbConnection.cs" />
+    <Compile Include="WriteRepositories\PizzaIngredientRepository.cs" />
+    <Compile Include="WriteRepositories\PizzaRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadModel\PizzaIngredientReadRepository.cs" />
+    <Compile Include="ReadModel\PizzaReadRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PentaStagione.Common\PentaStagione.Common.csproj">
+      <Project>{BDECEF60-1497-458E-AB66-866EA0D60DD9}</Project>
+      <Name>PentaStagione.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PentaStagione.Domain\PentaStagione.Domain.csproj">
+      <Project>{7bb3fc1c-1c72-480a-9346-4d15610166f1}</Project>
+      <Name>PentaStagione.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PentaStagione.Infrastracture\PentaStagione.Infrastracture.csproj">
+      <Project>{333b0d66-e76b-4628-9574-dcac2785277d}</Project>
+      <Name>PentaStagione.Infrastracture</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PentaStagione.Repository.Contracts\PentaStagione.Repository.Contracts.csproj">
+      <Project>{a12caed0-c4bd-44b3-8419-cbe11e16a112}</Project>
+      <Name>PentaStagione.Repository.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

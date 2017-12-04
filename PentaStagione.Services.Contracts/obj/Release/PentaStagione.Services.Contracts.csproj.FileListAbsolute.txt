@@ -1,0 +1,12 @@
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\PentaStagione.Services.Contracts.dll.config
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\PentaStagione.Services.Contracts.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\PentaStagione.Services.Contracts.pdb
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\Newtonsoft.Json.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\System.Web.Http.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\Newtonsoft.Json.xml
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\bin\Release\System.Web.Http.xml
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\obj\Release\PentaStagione.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\obj\Release\PentaStagione.Services.Contracts.dll
+C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.Services.Contracts\obj\Release\PentaStagione.Services.Contracts.pdb

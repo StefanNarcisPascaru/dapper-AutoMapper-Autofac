@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <DbDacFx path="C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.WebSite1\obj\Release\AutoScripts\PizzaDbEf_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+  <IisApp path="C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.WebSite1\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.WebSite1\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Stefan\Documents\Visual Studio 2015\Projects\PentaStagione\PentaStagione.WebSite1\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<PentaStagione.Repository.Contracts.ReadModel.DTOs.PizzaDto>
+@{
+    ViewBag.Title = "All Pizzas";
+}
+
+<table class="table">
+    <tr>
+        <th>
+            <span>Name</span>
+        </th>
+        <th>
+            Size
+        </th>
+        <th>
+            Ingredients
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <span>@item.Name</span>
+            </td>
+            <td>
+                <span>@item.Size</span>
+            </td>
+            <td>
+                @foreach (var ingredient in item.Ingredients)
+                {
+                    <span>@ingredient.Name;</span>
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
